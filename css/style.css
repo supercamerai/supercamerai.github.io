@@ -87,27 +87,32 @@ footer {
   font-size: 0.9em;
 }
 
-* Table styling */
-#dates table {
-  width: 100%;
-  border-collapse: separate;
-  border-spacing: 0 0.75rem; /* vertical spacing between rows */
-  margin-top: 1rem;
-}
-#dates th, #dates td {
-  padding: 0.75rem 1rem;       /* internal cell padding */
-  text-align: left;
-  border: 1px solid #ddd;
-}
-#dates th {
-  background-color: #f7f7f7;
-  font-weight: bold;
+.topics-columns {
+  /* Multi-column list styling */
+  column-count: 2;
+  column-gap: 1.5rem;
+  list-style-position: inside; /* keeps bullets neatly inside */
+  padding-left: 0;
+  margin: 0;
 }
 
-/* Responsive & Mobile */
+.schedule-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.schedule-table td {
+  padding: 0.1rem 2rem; /* top/bottom: 0.75rem, left/right: 2rem */
+}
+
+
+/* Ensure mobile compatibility */
 @media (max-width: 600px) {
-  .hero-overlay h1 { font-size: 1.5em; }
-  .team-member, .sponsor-grid img {
-    width: 45%;
+  .topics-columns {
+    column-count: 1;
+  }
+
+  .schedule-table td {
+    padding: 0.5rem 1rem; /* adjust padding for mobile */
   }
 }
