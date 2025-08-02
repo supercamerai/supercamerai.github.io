@@ -6,8 +6,8 @@ a:hover { text-decoration: underline; }
 /* Header */
 header.hero {
   position: relative;
-  height: 30vh;
-  background: url('../img/banner.webp') no-repeat center/cover;
+  height: 25vh;
+  background: url('../img/bot_banner.png') no-repeat center/cover;
 }
 .hero-overlay {
   position: absolute;
