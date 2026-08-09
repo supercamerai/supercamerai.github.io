@@ -2,66 +2,81 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>📷 Smart Cameras for Smarter Robots</title>
+  <title>2nd Workshop on Smart Cameras for Physical AI — BMVC 2026</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Smart Cameras for Smarter Autonomous Vehicles and Robots Workshop at BMVC 2025">
-  <meta name="keywords" content="smart cameras, autonomous vehicles, robotics, computer vision, BMVC 2025, workshop, embedded systems, image processing, sensor fusion">
+  <meta name="description" content="2nd Workshop on Smart Cameras for Physical AI at BMVC 2026 in Lancaster, UK">
+  <meta name="keywords" content="smart cameras, physical AI, robotics, computer vision, BMVC 2026, workshop, neural ISP, computational photography">
   <meta name="author" content="Marcos V. Conde">
   <meta name="robots" content="index, follow">
 
-  <meta property="og:title" content="Smart Cameras for Smarter Robots Workshop">
+  <meta property="og:title" content="2nd Workshop on Smart Cameras for Physical AI — BMVC 2026">
   <meta property="og:url" content="https://supercamerai.github.io/">
-  <meta property="og:description" content="Smart Cameras for Smarter Autonomous Vehicles and Robots Workshop at BMVC 2025">
+  <meta property="og:description" content="2nd Workshop on Smart Cameras for Physical AI at BMVC 2026, Lancaster, UK">
   <meta property="og:type" content="website">
-  <meta property="og:image" content="https://supercamerai.github.io/img/bot.png">
-  <meta property="og:site_name" content="Smart Cameras and Robots Workshop">
+  <meta property="og:image" content="https://supercamerai.github.io/img/hero-banner.jpg">
+  <meta property="og:site_name" content="Smart Cameras for Physical AI">
 
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-  <header class="hero">
-    <div class="hero-overlay">
-      <h1>
-        Smart Cameras for <br>Smarter Autonomous Vehicles and Robots 📷🤖
-        <br>
-      </h1>
-      
-    </div>
+  <header class="hero" aria-label="Workshop banner: smart cameras and robots">
+    <img src="img/hero-banner.jpg" alt="Smart cameras and robots">
   </header>
+
+  <div class="page-head">
+    <div class="edition-switch" aria-label="Workshop editions">
+      <span class="chip active">2026</span>
+      <a class="chip" href="2025/">2025</a>
+    </div>
+    <h1>Smart Cameras for Physical AI, 2nd Workshop</h1>
+
+    <div class="venue-row">
+      <div class="venue-copy">
+        <p class="event-line">
+          The 37th British Machine Vision Conference (BMVC) 2026
+          <span>Date: Thursday 26th November 2026 · Lancaster, UK</span>
+          <span>Venue: Lancaster Town Hall</span>
+        </p>
+      </div>
+      <figure class="venue-photo">
+        <img src="img/lancaster.jpg" alt="Lancaster Town Hall, workshop venue">
+        <figcaption>Lancaster Town Hall</figcaption>
+      </figure>
+    </div>
+  </div>
 
   <main>
     <section id="intro" class="container">
-      <h3 style="color:#3c0e7d;">The 36th British Machine Vision Conference (BMVC) 2025 <br> Full-day, Thusday 27th November 2025, Sheffield, UK <br> Venue: Cutlers' Hall, Reception Room</h3>
-      <br>
-      
       <h2>Introduction</h2>
       <p>
-        Welcome to the workshop on <b>Smart Cameras for Smarter Autonomous Vehicles & Robots</b>! This one-day event at <b><a href="https://bmvc2025.bmva.org/">BMVC 2025</a></b> brings together vision, robotics, and computational imaging experts to discuss challenges, applications, and innovations in embedded camera systems for robotic platforms.
-        <br>
-        <br>
-        Many advances in the development of autonomous robots and self-driving cars are limited by their embedded sensors.
-        Arguably, the most important sensors in autonomous vehicles and robots are the cameras. 
-        The entire navigation and driving pipeline relies on high-quality visual input data.
-        Vision-based algorithms for object recognition and scene understanding are key to ensuring proper navigation and interaction in the real world. 
-        <br>
-        However, what happens if the camera gets damaged?
-        What if the visual information is noisy? The safety and proper behavior of many autonomous systems depend on the quality and reliability of the cameras.
-        For this reason, we introduce the 1st “Smart Cameras for Smarter Autonomous Vehicles and Robots” Workshop to unify low-level vision, computational photography, and robotics.
+        Welcome to the <b>2nd Workshop on Smart Cameras for Physical AI</b> at
+        <b><a href="https://bmvc2026.bmva.org/">BMVC 2026</a></b>!
+        After a successful first edition at BMVC 2025 with 100+ in-person attendees,
+        we return with a sharper focus: cameras as the foundation of reliable robot perception.
+      </p>
+      <p>
+        Robots, drones, and autonomous systems live or die by the quality of their visual input.
+        A weak ISP, a noisy RAW frame, a damaged lens, or an uncontrolled enhancement model can break
+        recognition, mapping, planning, and action. This workshop brings together computational photography,
+        low-level vision, robotics, and edge AI to discuss how to design camera pipelines that are robust,
+        controllable, and useful for downstream intelligence — including VLMs and VLAs.
+      </p>
+      <p>
+        Previous edition: <a href="2025/">BMVC 2025 — Smart Cameras for Smarter Autonomous Vehicles and Robots</a>.
       </p>
     </section>
 
-
     <section id="speakers" class="container team-section">
       <h2>Speakers</h2>
-
       <div class="team-grid">
 
         <div class="team-member">
-          <a href="https://blurlabs.ai" target="_blank" rel="noopener">
-          <img src="img/terris.png" alt="Matthieu Terris">
-          <h3>Matthieu Terris</h3>
-          <p>Blur Labs</p>
+          <a href="https://mv-lab.github.io" target="_blank" rel="noopener">
+          <img src="img/marcos-notserious.jpg" alt="Marcos V. Conde">
+          <h3>Marcos V. Conde</h3>
+          <p>University of Würzburg</p>
+          <p class="talk-title">Cameras for Robots</p>
           </a>
         </div>
 
@@ -74,71 +89,90 @@
         </div>
 
         <div class="team-member">
+          <a href="https://andrewwango.github.io/about/" target="_blank" rel="noopener">
+          <img src="img/andrew.jpg" alt="Andrew Wang">
+          <h3>Andrew Wang</h3>
+          <p>Blur Labs</p>
+          </a>
+        </div>
+
+        <div class="team-member">
           <a href="https://hirokatsukataoka.net" target="_blank" rel="noopener">
           <img src="img/kataoka_photo2.png" alt="Hirokatsu Kataoka">
           <h3>Hirokatsu Kataoka</h3>
-          <p>AIST/VGG</p>
+          <p>AIST / Oxford VGG</p>
           </a>
         </div>
 
         <div class="team-member">
-          <a href="http://mariobijelic.de/wordpress/" target="_blank" rel="noopener">
-          <img src="img/mario.jpg" alt="Mario Bijelic">
-          <h3>Mario Bijelic</h3>
-          <p>Princeton University</p>
-          </a>
-        </div>
-
-        <div class="team-member">
-          <a href="https://mv-lab.github.io" target="_blank" rel="noopener">
-          <img src="img/marcos-notserious.jpg" alt="Marcos V. Conde">
-          <h3>Marcos V. Conde</h3>
-          <p>CIDAUT AI
-          </p>
-          </a>
-        </div>
-
-        <div class="team-member">
-          <a href="http://glass-imaging.com" target="_blank" rel="noopener">
+          <a href="https://www.glass-imaging.com" target="_blank" rel="noopener">
           <img src="img/tom.webp" alt="Tom Bishop">
           <h3>Tom Bishop</h3>
           <p>Glass Imaging</p>
           </a>
         </div>
 
-        <div class="team-member">
-          <a href="https://vztu.github.io" target="_blank" rel="noopener">
-          <img src="img/tu.png" alt="Zhengzhong Tu">
-          <h3>Zhengzhong Tu</h3>
-          <p>Texas A&M University</p>
-          </a>
-        </div>
-
-
       </div>
     </section>
 
-    <section id="schedule" class="container team-section">
-      <h2>Schedule</h2>
-
+    <section id="schedule" class="container">
+      <h2>Tentative Schedule</h2>
+      <p class="muted">Full-day workshop outline. Times are tentative and will be confirmed closer to BMVC 2026.</p>
       <table class="schedule-table">
-        <tr><td>Introduction</td><td>9:00 AM – 9:15 AM</td></tr>
-        <tr><td>Paper Presentations</td><td>9:15 AM – 9:45 AM</td></tr>
-        <tr><td>Marcos Conde (CIDAUT AI)</td><td>9:45 AM – 10:45 AM</td></tr>
-        <tr><td><b>Morning Coffee Break</b></td><td>10:45 AM – 11:15 AM</td></tr>
-        <tr><td>Ziteng Cui (University of Tokyo)</td><td>11:15 AM – 12:00 PM</td></tr>
-        <tr><td>Matthieu Terris (Matthieu Terris)</td><td>12:00 PM – 12:45 PM</td></tr>
-        <tr><td><b>Lunch Break</b></td><td>1:00 PM – 2:00 PM</td></tr>
-        <tr><td>Hirokatsu Kataoka (AIST/VGG)</td><td>2:00 PM – 2:45 PM</td></tr>
-        <tr><td>Mario Bijelic (Princeton University)</td><td>2:45 PM – 3:30 PM</td></tr>
-        <tr><td><b>Afternoon Coffee Break</b></td><td>3:45 PM – 4:15 PM</td></tr>
-        <tr><td>Tom Bishop (GLASS)</td><td>4:15 PM – 4:45 PM</td></tr>
-        <tr><td>Zhengzhong Tu (Texas A&M University)</td><td>4:45 PM – 5:15 PM</td></tr>
+        <tr><td>Welcome &amp; opening</td><td>09:00 – 09:15</td></tr>
+        <tr><td>Paper spotlights</td><td>09:15 – 09:45</td></tr>
+        <tr><td><b>Marcos V. Conde</b> — Cameras for Robots</td><td>09:45 – 10:30</td></tr>
+        <tr class="break"><td>Coffee break</td><td>10:30 – 11:00</td></tr>
+        <tr><td><b>Ziteng Cui</b> (University of Tokyo)</td><td>11:00 – 11:45</td></tr>
+        <tr><td><b>Andrew Wang</b> (Blur Labs)</td><td>11:45 – 12:30</td></tr>
+        <tr class="break"><td>Lunch break</td><td>12:30 – 13:30</td></tr>
+        <tr><td><b>Hirokatsu Kataoka</b> (AIST / Oxford VGG)</td><td>13:30 – 14:15</td></tr>
+        <tr><td><b>Tom Bishop</b> (Glass Imaging)</td><td>14:15 – 15:00</td></tr>
+        <tr class="break"><td>Coffee / posters &amp; demos</td><td>15:00 – 15:40</td></tr>
+        <tr><td>Open discussion, challenges &amp; closing</td><td>15:40 – 16:15</td></tr>
+      </table>
+    </section>
+
+    <section id="cfp" class="container">
+      <h2>Call for Papers</h2>
+      <p>
+        We invite paper submissions on computational photography and low-level computer vision
+        with applications in robotics and autonomous systems. Topics include, but are not limited to:
+      </p>
+      <ul class="topics-columns">
+        <li>camera-based perception</li>
+        <li>lens and optics</li>
+        <li>neural / classical ISPs</li>
+        <li>image restoration &amp; enhancement</li>
+        <li>drone and aerial imaging</li>
+        <li>novel image datasets</li>
+        <li>sensor fusion</li>
+        <li>real-time / edge AI</li>
+        <li>VLMs and VLAs for robots</li>
+        <li>robust sensing under adverse conditions</li>
+      </ul>
+      <br>
+      <p>
+        Papers should follow the BMVC 2026 format. Reviewing is double blind.
+        Accepted papers must be presented at the workshop.
+        Submission link will be announced soon.
+        See also the <a href="https://bmvc2026.bmva.org/">BMVC 2026 website</a>.
+      </p>
+
+      <h3>Important Dates <span class="muted">(tentative)</span></h3>
+      <table class="schedule-table">
+        <tr><td>Submission deadline</td><td>7th August 2026</td></tr>
+        <tr><td>Notification of acceptance</td><td>21st August 2026</td></tr>
+        <tr><td>Camera-ready submission</td><td>4th September 2026</td></tr>
+        <tr><td>Workshop date</td><td>26th November 2026, Lancaster, UK</td></tr>
       </table>
 
-      </div>
+      <br>
+      <details>
+        <summary>Microsoft CMT service</summary>
+        <p>The Microsoft CMT service may be used for managing the peer-reviewing process for this workshop. This service is provided for free by Microsoft and they bear all expenses, including costs for Azure cloud services as well as for software development and support.</p>
+      </details>
     </section>
-
 
     <section id="organizers" class="container team-section">
       <h2>Organizers</h2>
@@ -149,26 +183,16 @@
           <img src="img/marcosv.jpg" alt="Marcos V. Conde">
           </a>
           <h3>Marcos V. Conde</h3>
-          <p>CIDAUT AI & University of Würzburg</p>
-          
+          <p>University of Würzburg</p>
         </div>
 
         <div class="team-member">
-          <a href="https://larissa.triess.eu/" target="_blank" rel="noopener">
-          <img src="img/larissa.jpg" alt="Larissa Triess">
+          <a href="https://www.glass-imaging.com/team/shivansh-rao" target="_blank" rel="noopener">
+          <img src="img/rao.png" alt="Shivansh Rao">
           </a>
-          <h3>Larissa Triess</h3>
-          <p>Mercedes-Benz R&D</p>
+          <h3>Shivansh Rao</h3>
+          <p>Glass Imaging</p>
         </div>
-
-        <!--<div class="team-member">
-          <a href="http://arturodeza.wikidot.com/" target="_blank" rel="noopener">
-          <img src="img/arturo.jpg" alt="Arturo Deza">
-          </a>
-          <h3>Arturo Deza</h3>
-          <p>CEO of Artificio</p>
-        </div>
-      -->
 
         <div class="team-member">
           <a href="https://cuiziteng.github.io" target="_blank" rel="noopener">
@@ -179,25 +203,19 @@
         </div>
 
         <div class="team-member">
-          <a href="https://scholar.google.com/citations?user=f186MIUAAAAJ&hl=en" target="_blank" rel="noopener">
-          <img src="img/juaben.jpg" alt="Juan C. Benito">
+          <a href="https://www.informatik.uni-wuerzburg.de/en/computervision/" target="_blank" rel="noopener">
+          <img src="img/radu.jpg" alt="Radu Timofte">
           </a>
-          <h3>Juan C. Benito</h3>
-          <p>CIDAUT AI</p>
+          <h3>Radu Timofte</h3>
+          <p>University of Würzburg</p>
         </div>
 
         <div class="team-member">
-          <a href="https://scholar.google.com/citations?hl=es&user=hqbPn4YAAAAJ" target="_blank" rel="noopener">
-          <img src="img/danfei.jpg" alt="Daniel Feijoo">
+          <a href="https://mv-lab.github.io/pimaging/" target="_blank" rel="noopener">
+          <img src="img/lev.png" alt="Lev Markhasin">
           </a>
-          <h3>Daniel Feijoo</h3>
-          <p>CIDAUT AI</p>
-        </div>
-
-        <div class="team-member">
-          <img src="img/paula.jpg" alt="Paula Garrido">
-          <h3>Paula Garrido</h3>
-          <p>CIDAUT AI</p>
+          <h3>Lev Markhasin</h3>
+          <p>Tenkai AI</p>
         </div>
 
         <div class="team-member">
@@ -208,96 +226,40 @@
           <p>CIDAUT AI</p>
         </div>
 
-        <!--
-        <div class="team-member">
-          <img src="img/bot.png" alt="cidaut AI">
-          <h3>Other members</h3>
-          <p>CIDAUT AI</p>
-        </div>
-        -->
-
       </div>
 
-      <br>
-      <h3>Program Committee</h3>
-      Marcos V. Conde, Larissa Triess (Mercedes-Benz R&D), Arturo Deza (CEO Artificio), Lin Gu (Riken), Ziteng Cui (UTokyo), Matthieu Terris (Inria, Blur Labs), Hirokatsu Kataoka (AIST, 
-      University of Oxford VGG), Juan C. Benito, Daniel Feijoo, Javier Abad Hernández, Álvaro García Lara, Paula Garrido, Álvaro García.
-      <br>
-      <em>🤗 Workshop sponsored by Fundación CIDAUT.</em>
-      <br>
-      <br>
-      We plan to host this workshop annually at major computer vision conferences.
-      If you are interested in joining the organizing team, please contact us.
-      <br>
-      <br>
-      <p><b>Contact</b> {marcos.conde, juaben, alvgar}@cidaut.es</p>
-      <br>
-
+      <p class="contact-line"><b>Contact</b> <a href="mailto:marcos.conde@uni-wuerzburg.de">marcos.conde@uni-wuerzburg.de</a></p>
     </section>
 
+    <section id="related" class="related-box" aria-label="Related workshops and tutorials">
+      <h2>Also from our series</h2>
+      <p>Explore the previous workshop and our ICCV tutorial on AI-powered photography and imaging.</p>
+      <div class="related-links">
+        <a class="related-card" href="https://supercamerai.github.io/2025/" target="_blank" rel="noopener">
+          <strong>Smart Cameras @ BMVC 2025</strong>
+          <span>1st Edition — Smart Cameras for Smarter Autonomous Vehicles and Robots. 100+ in-person attendees.</span>
+        </a>
+        <a class="related-card" href="https://mv-lab.github.io/neuralisp-iccv25/" target="_blank" rel="noopener">
+          <strong>Neural ISP Tutorial @ ICCV 2025</strong>
+          <span>A Tour Through AI-powered Photography and Imaging — RAW, neural ISPs, and controllable imaging.</span>
+        </a>
+      </div>
+    </section>
 
     <section id="sponsors" class="container sponsors-section">
-      <h2>Sponsors & Supporters</h2>
+      <h2>Sponsors &amp; Supporters</h2>
       <div class="sponsor-grid">
         <img src="img/logo-cidaut.svg" alt="CIDAUT">
         <img src="img/utokyo.svg.png" alt="UTokyo">
-        <!--<img src="img/artificio.png" alt="Artificio"> -->
-        <img src="img/bmvc-2025.png" alt="BMVC">
+        <img src="img/bmvc-2026.png" alt="BMVC 2026">
       </div>
-    </section>
-
-    <br>
-    <section id="cfp" class="container">
-      <h2>Call for Papers [CLOSED]</h2>
-      <p>We invite paper submissions on topics related to computational photography and low-level computer vision with applications in robotics and autonomous driving.
-        The topics include, but are not limited to: 
-        <br>
-        <br>
-        <ul class="topics-columns">
-          <li>camera‑based perception</li>
-          <li>lens and optics</li>
-          <li>image signal processors (ISP)</li>
-          <li>image restoration</li>
-          <li>drone and aerial photography</li>
-          <li>novel image datasets</li>
-          <li>sensor fusion</li>
-          <li>real‑time processing</li>
-          <li>vision language models (VLMs and VLAs)</li>
-          <li>edge AI</li>
-        </ul>
-        <br>
-        Submission platform: <a href="https://cmt3.research.microsoft.com/SmartCameras2025/">https://cmt3.research.microsoft.com/SmartCameras2025/</a>
-        <br>
-        Papers must follow the same format as BMVC 2025 main conference. The reviewing process is double blind. Dual submissions are not allowed. Accepted papers must be presented at the workshop.
-        <a href="https://bmvc2025.bmva.org/authors/author-guidelines/">Author Guidelines of BMVC 2025.</a>
-        <br>
-        <br>
-        <h3>Important Dates</h3>
-
-          <table class="schedule-table">
-            <!-- <tr><th>Event</th><th>Date</th></tr> -->
-            <tr><td>Submission deadline</td><td>5th September 2025 (extended)</td></tr>
-            <tr><td>Notification of acceptance</td><td>12th September 2025</td></tr>
-            <tr><td>Camera‑ready submission</td><td>22nd September 2025</td></tr>
-            <!-- <tr><td>Author registration</td><td>Coming soon through BMVC registration</td></tr> -->
-            <tr><td>Workshop date</td><td>27th November 2025, Sheffield, UK</td></tr>
-          </table>
-
-        <br>
-        <details>
-        <summary>Microsoft CMT service</summary>
-        <p>The Microsoft CMT service was used for managing the peer-reviewing process for this conference. This service was provided for free by Microsoft and they bore all expenses, including costs for Azure cloud services as well as for software development and support.</p>
-      </details>
-
-      </p>
     </section>
 
   </main>
 
   <footer>
-    <p>&copy; 2025 Smart Cameras for Smarter Autonomous Vehicles and Robots Workshop at The 36th British Machine Vision Conference (BMVC)</p>
+    <p>&copy; 2026 2nd Workshop on Smart Cameras for Physical AI · BMVC 2026 · <a href="2025/">2025 edition</a></p>
   </footer>
 
 </body>
 </html>
-
